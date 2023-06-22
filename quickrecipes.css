@@ -1,0 +1,44 @@
+*{
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: max-content;
+    margin: auto;
+    
+}
+
+
+.para {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    display: flex; flex-direction: column;
+
+}
+
+
+h1 {
+    color: rgb(67, 153, 185);
+    width: 330px;
+    height: 60px;
+    background-color: cyan;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes test {
+    from {background-color: cyan;}
+    to {background-color: darkred;}
+    
+}
